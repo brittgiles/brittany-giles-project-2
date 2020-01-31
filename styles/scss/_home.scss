@@ -1,0 +1,186 @@
+// Header
+
+header {
+    background: $primary-color;
+    height: 90vh;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 12rem;
+    line-height: 92px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 110px;
+    top: 200px;
+}
+
+.all-about-text {
+    width: 190px;
+    position: absolute;
+    top: 120px; //OR 8%
+    left: 30px;
+}
+
+.header-text {
+    position: relative;
+}
+
+.sophie-portrait {
+    width: 400px;
+    position: absolute;
+    top: 15vh;
+    right: 20vh;
+    box-shadow: 20px 20px white;
+}
+
+// About Sophie section
+
+.about-sophie {
+    height: 70vh;
+    background: $white;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.about-sophie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    p {
+        width: 80%;
+        margin: 20px 0;
+    }
+}
+
+// Sophie's Favourites section
+
+.sophie-favourites {
+    background: white;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+
+    .favourites-container {
+        display: flex;
+        align-content: center;
+
+        img {
+            box-shadow: 20px 20px $shadow-color;
+            width: 100%;
+            margin-top: -8%;
+            margin-left: -5%;
+        }
+    }
+    
+}
+
+.favourites-image-container {
+    width: 50%;
+    display: flex;
+}
+
+.favourites-shadow {
+    background: $shadow-color;
+    width: 24%;
+    height: 115%;
+    margin-top: -3.5%;
+}
+
+.favourites-text-flex {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 100px;
+
+        p {
+            margin: 20px 0;
+        }
+}
+
+// Sophie Travel section
+
+
+
+
+// Website pages section 
+
+.website-pages {
+    height: 80vh;
+    background-color: $white;
+}
+
+//Full image divider section
+.full-image {
+    background-image: url(../assets/home-image-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65vh;
+}
+
+// Sophie's Journey section
+
+.sophie-journey {
+    background: $white;
+    height: 65vh;
+    width: 100%;
+}
+
+.journey-content-container {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100%
+}
+
+.journey-flex-image {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.journey-image {
+    box-shadow: 20px 20px $primary-color;
+    width: 70%;
+}
+
+.journey-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+
+    h2 {
+        margin: 0;
+    }
+        p {
+            width: 100%;
+            margin: 20px 0;
+        }
+}
+
+// Three travel images section
+
+.three-images {
+    height: 65vh;
+    background: white;
+
+    .three-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .image-container {
+            padding: 30px;
+        }
+    }    
+}
+

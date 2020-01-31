@@ -1,0 +1,85 @@
+// Navigation
+
+nav {
+    height: 10vh;
+    background: $primary-color;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav li {
+    padding: 0 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: $black;
+}
+
+nav a:hover,
+nav a:focus {
+    color: $white;
+}
+
+nav p {
+    font-family: 'Lora', serif;
+    font-size: 4rem;
+}
+
+// Footer
+
+footer {
+    height: 7vh;
+    background: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: $white;
+    letter-spacing: 1px;
+}
+
+// Typography
+
+h2,
+h4 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+// Page links/buttons
+.button {
+    color: $black;
+    background: $accent-color;
+    padding: 20px;
+    // margin: 40px auto 0;
+    display: block;
+    text-align: center;
+    width: 250px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 3.2px;
+    font-weight: 700;
+}
