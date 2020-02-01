@@ -1,3 +1,7 @@
+main {
+    background: $white;
+}
+
 .contact-header {
     .header-image {
         background: url(../assets/contact-image-1.jpg);
@@ -7,6 +11,45 @@
         height: 60vh;
     }
 }
+
+.subpage-h1 {
+    font-family: 'Lora', serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+
+.contact-flex-parent {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+li a {
+    color: $primary-color;
+    margin-right: 10px;
+}
+
+.contact-aside {
+    width: 30%;
+}
+
+.contact-form {
+    width: 70%;
+}
+
+// form {
+//     border: none;
+// }
+
+input {
+    border: white;
+}
+
 
 
 
