@@ -687,14 +687,16 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   height: 60vh;
+  position: relative;
 }
 
 .subpage-h1 {
   font-family: 'Lora', serif;
   font-size: 6rem;
   text-transform: uppercase;
-  margin-top: -40px;
   margin-left: 100px;
+  position: absolute;
+  bottom: 166px;
 }
 
 .contact-flex-parent {
@@ -704,25 +706,85 @@ main {
   width: 100%;
 }
 
-ul {
+.contact-aside ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-li a {
+.contact-aside ul li a {
   color: #F6A823;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
-.contact-aside {
-  width: 30%;
+.contact-info p:first-child {
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  margin: 10px 0;
 }
 
 .contact-form {
-  width: 70%;
+  margin-top: 70px;
 }
 
-input {
+input::-webkit-input-placeholder {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+input:-ms-input-placeholder {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+input::-ms-input-placeholder {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+input::placeholder {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.contact-aside {
+  width: 25%;
+  height: 40%;
+  background: white;
+  margin: 70px 30px 0px 0px;
+  padding: 30px;
+}
+
+.contact-form {
+  width: 80%;
+}
+
+#name,
+#email {
   border: white;
+  padding: 20px 20px;
+  width: 49%;
+}
+
+#message {
+  border: white;
+  width: 99%;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.contact-button {
+  color: #2C2C2C;
+  background: #05AFC1;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  width: 99%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 3.2px;
+  font-weight: 700;
+  border: #05AFC1;
+  margin: 10px 0 70px 0;
 }
