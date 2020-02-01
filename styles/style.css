@@ -541,6 +541,56 @@ h1 {
   background-color: #F0EFED;
 }
 
+a {
+  color: #2C2C2C;
+}
+
+.flex-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.upper-pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.lower-pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  padding-top: 10px;
+}
+
+.icons i {
+  background: #F6A823;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 1.7rem;
+  margin-right: 10px;
+}
+
+.website-pages p {
+  margin: 20px 0;
+}
+
 .full-image {
   background-image: url(../assets/home-image-4.jpg);
   background-size: cover;
