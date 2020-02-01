@@ -1,6 +1,6 @@
 // Header
 
-header {
+.home-header {
     background: $primary-color;
     height: 90vh;
 }
@@ -62,7 +62,6 @@ h1 {
     background: white;
     height: 45vh;
     width: 100%;
-    // position: relative;
 
     .favourites-container {
         display: flex;

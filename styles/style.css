@@ -362,7 +362,7 @@ p {
   font-weight: 700;
 }
 
-header {
+.home-header {
   background: #F6A823;
   height: 90vh;
 }
@@ -625,4 +625,12 @@ h1 {
 
 .three-images .three-images-container .image-container {
   padding: 30px;
+}
+
+.contact-header .header-image {
+  background: url(../assets/contact-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
 }
