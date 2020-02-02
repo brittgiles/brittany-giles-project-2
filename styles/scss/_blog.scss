@@ -23,7 +23,7 @@ aside {
 }
 
 .blog-content {
-    width: 100%;
+    width: 99%;
     background: white;
     flex-direction: column;
 }
@@ -31,7 +31,7 @@ aside {
 .sections-flex-parent {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 99%;
     margin-top: 70px;
 }
 
@@ -78,6 +78,11 @@ aside {
         font-size: 1.5rem;
         color: $black;
     }
+
+    li a:hover,
+    li a:focus {
+        color: $primary-color;
+    }
 }
 
 .blog-content {
@@ -108,10 +113,10 @@ aside {
 }
 
 .comment {
-    // width: 100%;
     background: white;
     margin-bottom:10px;
     padding: 25px;
+    width: 99%;
 
     h4 {
         font-size: 1.5rem;
@@ -131,10 +136,32 @@ aside {
 
 .comment-flex-parent {
     display: flex;
-    width: 100%;
+    width: 99%;
 }
 
 .last-comment {
         box-shadow: 0 5px 0 $primary-color;
         margin-bottom: 30px;
     }
+
+.comment-button {
+    color: $black;
+    background: $accent-color;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    width: 99%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 3.2px;
+    font-weight: 700;
+    border: 1px solid $accent-color;
+    margin: 10px 0 70px 0;
+}
+
+.comment-button:hover, 
+.comment-button:focus {
+    background: white;
+    border: 1px solid $accent-color;
+}
+

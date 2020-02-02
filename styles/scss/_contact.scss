@@ -34,6 +34,11 @@ main {
     color: $primary-color;
     margin-right: 20px;
     }
+
+    li a:hover,
+    li a:focus {
+        color: $shadow-color;
+    }
 }
 
 .contact-info p:first-child {
@@ -68,7 +73,6 @@ input::placeholder {
 #email {
     border: white;
     padding: 20px 20px;
-    // margin: 10px 5px;
     width: 49%;
 }
 
@@ -90,6 +94,12 @@ input::placeholder {
     letter-spacing: 1px;
     line-height: 3.2px;
     font-weight: 700;
-    border: $accent-color;
+    border: 1px solid $accent-color;
     margin: 10px 0 70px 0;
+}
+
+.contact-button:hover, 
+.contact-button:focus {
+    background: white;
+    border: 1px solid $accent-color;
 }

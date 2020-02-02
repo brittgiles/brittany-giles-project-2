@@ -73,8 +73,7 @@
             margin-top: -8%;
             margin-left: -5%;
         }
-    }
-    
+    } 
 }
 
 .favourites-image-container {
@@ -117,7 +116,6 @@
             box-shadow: 20px 20px $primary-color;
             width: 100%;
             margin-top: 17%;
-            // margin-left: -5%;
         }
     }
 }
@@ -158,6 +156,11 @@ a {
     color: $black;
 }
 
+.website-pages a:hover,
+.website-pages a:focus {
+    color: $primary-color;
+}
+
 .flex-parent {
     display: flex;
     flex-direction: column;
@@ -192,7 +195,6 @@ a {
 .website-pages p {
     margin: 20px 0;
 }
-
 
 //Full image divider section
 .full-image {
@@ -261,5 +263,29 @@ a {
             padding: 30px;
         }
     }    
+}
+
+// Media queries 
+
+@media (max-width: 1165px) {
+
+}
+
+@media (max-width: 1120px) {
+    .sophie-portrait {
+        right: 5%;
+        width: 30%;
+    }
+
+    .main-h1 {
+        font-size: 9rem;
+    }
+
+    .all-about-text {
+        width: 120px;
+        position: absolute;
+        top: 170px; 
+        left: 80px;
+    }
 }
 
