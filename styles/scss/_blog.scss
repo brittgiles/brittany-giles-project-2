@@ -19,7 +19,7 @@ main {
 }
 
 aside {
-    width: 30%;
+    width: 35%;
 }
 
 .blog-content {
@@ -35,24 +35,49 @@ aside {
     margin-top: 70px;
 }
 
-.about-sophie,
+.about-sophie-blog,
 .recent-posts {
     background: white;
-    padding: 20px;
+    padding: 25px;
     height: 100%;
 }
 
 
-.about-sophie {
+.about-sophie-blog {
     margin: 70px 20px 20px 0;
+
+    h3 {
+        font-size: 1.8rem;
+        margin: 20px 0 10px 0;
+    }
 }
 
-.about-sophie a {
+.about-sophie-blog a {
     color: $blog-link;
+    font-weight: bold;
 }
 
 .recent-posts {
     margin-right: 20px;
+
+    h3 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    li:before {
+        content: "·";
+        font-size: 25px;
+        vertical-align: middle;
+        line-height: 20px;
+        padding-right: 20px;
+        color: $primary-color;
+    }
+
+    li a {
+        font-size: 1.5rem;
+        color: $black;
+    }
 }
 
 .blog-content {
