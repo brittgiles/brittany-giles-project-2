@@ -1,0 +1,115 @@
+main {
+    background: $white;
+}
+
+.blog-header {
+    .header-image {
+        background: url(../assets/blog-image-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 60vh;
+        position: relative;
+    }
+}
+
+.blog-flex-parent {
+    display: flex;
+    width: 100%;
+}
+
+aside {
+    width: 30%;
+}
+
+.blog-content {
+    width: 100%;
+    background: white;
+    flex-direction: column;
+}
+
+.sections-flex-parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.about-sophie,
+.recent-posts {
+    background: white;
+    padding: 20px;
+    height: 100%;
+}
+
+
+.about-sophie {
+    margin: 70px 20px 20px 0;
+}
+
+.about-sophie a {
+    color: $blog-link;
+}
+
+.recent-posts {
+    margin-right: 20px;
+}
+
+.blog-content {
+    padding: 30px;
+    box-shadow: 0 5px 0 $primary-color;
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: 2rem;
+    }
+    .date-author {
+        margin: 10px 0;
+        font-style: italic;
+
+        a {
+            color: $blog-link;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.comment {
+    // width: 100%;
+    background: white;
+    margin-bottom:10px;
+    padding: 25px;
+
+    h4 {
+        font-size: 1.5rem;
+        text-transform: none;
+        color: $blog-link;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 0.6px;
+        margin-bottom: 10px;
+    }
+
+    .comment-image-container {
+        max-width: 80px;
+        margin-right: 20px;
+    }
+}
+
+.comment-flex-parent {
+    display: flex;
+    width: 100%;
+}
+
+.last-comment {
+        box-shadow: 0 5px 0 $primary-color;
+        margin-bottom: 30px;
+    }
