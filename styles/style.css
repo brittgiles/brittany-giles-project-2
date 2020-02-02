@@ -689,6 +689,13 @@ a {
   padding: 30px;
 }
 
+@media (max-width: 1165px) {
+  .favourites-shadow {
+    height: 110%;
+    margin-top: -2.5%;
+  }
+}
+
 @media (max-width: 1120px) {
   .sophie-portrait {
     right: 5%;
@@ -702,6 +709,81 @@ a {
     position: absolute;
     top: 170px;
     left: 80px;
+  }
+  .about-sophie {
+    text-align: center;
+  }
+  .about-sophie .button {
+    margin: 0 auto;
+  }
+  .about-sophie-container p {
+    width: 50%;
+    margin: 20px auto;
+  }
+  .sophie-favourites {
+    height: 100%;
+  }
+  .sophie-favourites .favourites-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sophie-favourites .favourites-container img {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin: 20px 0;
+  }
+  .favourites-image-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .favourites-text-flex {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 0;
+  }
+  .favourites-text-flex .button {
+    margin: 0 auto;
+  }
+  .favourites-shadow {
+    width: 0%;
+    height: 0%;
+  }
+  .travel-shadow {
+    width: 0%;
+    height: 0%;
+  }
+  .sophie-travel .travel-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .sophie-travel .travel-container img {
+    margin: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .travel-image-container {
+    margin: 20px auto;
+  }
+  .sophie-travel {
+    height: 100%;
+  }
+  .travel-text-flex {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .travel-text-flex a {
+    margin: 0 auto 20px;
+  }
+  .full-image {
+    height: 30vh;
   }
 }
 
