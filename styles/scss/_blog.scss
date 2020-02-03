@@ -165,3 +165,48 @@ aside {
     border: 1px solid $accent-color;
 }
 
+// Media queries 
+
+@media (max-width:768px) {
+    .subpage-h1 {
+        bottom: 0px;
+        margin-top: -14px;
+        position: relative;
+    }
+
+    .blog-header .header-image {
+        height: 20vh;
+    }
+}
+
+@media (max-width:375px) {
+    aside {
+     width: 100%;
+    }   
+
+    .blog-flex-parent {
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+
+    .about-sophie-blog {
+        margin: 0;
+    }
+
+    .comment-button {
+        margin-bottom: 20px;
+    }
+
+    .about-sophie-blog,
+    .recent-posts {
+        margin-bottom: 20px;
+    }
+
+    .recent-posts {
+        margin-right: 0;
+    }
+
+
+
+}
+

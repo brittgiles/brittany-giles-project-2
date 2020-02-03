@@ -103,3 +103,31 @@ input::placeholder {
     background: white;
     border: 1px solid $accent-color;
 }
+
+// Media queries 
+@media (max-width:768px) {
+    .contact-header .header-image {
+        height: 20vh;
+    }
+}
+
+@media (max-width:375px) {
+    .subpage-h1 {
+        font-size: 3rem;
+        margin-left: 30px;
+    }
+
+    .contact-flex-parent {
+        flex-direction: column;
+    }
+
+    .contact-aside {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 30px auto;
+    }
+}
