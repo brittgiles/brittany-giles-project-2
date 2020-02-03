@@ -13,6 +13,15 @@ main {
     }
 }
 
+header i {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 4rem;
+    color: $black;
+    visibility: hidden;
+}
+
 .blog-flex-parent {
     display: flex;
     width: 100%;
@@ -178,6 +187,20 @@ aside {
         height: 20vh;
     }
 }
+
+// @media (max-width:650px) {
+//     header ul{
+//         display: none;
+//     }
+//     i.fa-bars{
+//         visibility: visible;
+//     }
+
+//     i.fa-bars:hover,
+//     i.fa-bars:focus {
+//         color: $accent-color;
+//     }
+// }
 
 @media (max-width:375px) {
     aside {

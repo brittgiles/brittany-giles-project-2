@@ -34,6 +34,15 @@
     box-shadow: 20px 20px white;
 }
 
+// header i {
+//     position: absolute;
+//     top: 20px;
+//     right: 25px;
+//     font-size: 4rem;
+//     color: $black;
+//     visibility: hidden;
+// }
+
 // About Sophie section
 
 .about-sophie {
@@ -181,16 +190,16 @@ a {
     padding-top: 10px;
 }
 
-.icons i {
-    background: $primary-color;
-    border-radius: 100%;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    padding-top: 9px;
-    font-size: 1.7rem;
-    margin-right: 10px;
-}
+// .icons i {
+//     background: $primary-color;
+//     border-radius: 100%;
+//     width: 35px;
+//     height: 35px;
+//     text-align: center;
+//     padding-top: 9px;
+//     font-size: 1.7rem;
+//     margin-right: 10px;
+// }
 
 .website-pages p {
     margin: 20px 0;
@@ -401,6 +410,15 @@ a {
 }
 
 @media (max-width:650px) {
+    
+    nav li p {
+        display: none;
+    }
+
+    nav li:nth-child(3) {
+        padding: 0;
+    }
+
     .website-pages {
         height: 100%;
     }
@@ -470,6 +488,10 @@ a {
     .main-h1 {
         left: 14%;
     }
+
+    nav li {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width:380px) {
@@ -509,5 +531,9 @@ a {
 
     h3 {
         font-size: 2.5rem;
+    }
+
+    i {
+        margin-bottom: 10px;
     }
 }

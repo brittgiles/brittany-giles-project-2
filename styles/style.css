@@ -588,17 +588,6 @@ a {
   padding-top: 10px;
 }
 
-.icons i {
-  background: #F6A823;
-  border-radius: 100%;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  padding-top: 9px;
-  font-size: 1.7rem;
-  margin-right: 10px;
-}
-
 .website-pages p {
   margin: 20px 0;
 }
@@ -807,6 +796,12 @@ a {
 }
 
 @media (max-width: 650px) {
+  nav li p {
+    display: none;
+  }
+  nav li:nth-child(3) {
+    padding: 0;
+  }
   .website-pages {
     height: 100%;
   }
@@ -870,6 +865,9 @@ a {
   .main-h1 {
     left: 14%;
   }
+  nav li {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 380px) {
@@ -901,6 +899,9 @@ a {
   }
   h3 {
     font-size: 2.5rem;
+  }
+  i {
+    margin-bottom: 10px;
   }
 }
 
@@ -1065,6 +1066,15 @@ main {
   background-position: center;
   height: 60vh;
   position: relative;
+}
+
+header i {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 4rem;
+  color: #2C2C2C;
+  visibility: hidden;
 }
 
 .blog-flex-parent {

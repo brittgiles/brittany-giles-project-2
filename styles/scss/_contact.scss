@@ -111,6 +111,20 @@ input::placeholder {
     }
 }
 
+// @media (max-width:650px) {
+//     header ul{
+//         display: none;
+//     }
+//     i.fa-bars{
+//         visibility: visible;
+//     }
+
+//     i.fa-bars:hover,
+//     i.fa-bars:focus {
+//         color: $accent-color;
+//     }
+// }
+
 @media (max-width:375px) {
     .subpage-h1 {
         font-size: 3rem;
