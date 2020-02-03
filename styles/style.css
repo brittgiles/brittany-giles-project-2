@@ -588,6 +588,17 @@ a {
   padding-top: 10px;
 }
 
+.icons i {
+  background: #F6A823;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 1.7rem;
+  margin-right: 10px;
+}
+
 .website-pages p {
   margin: 20px 0;
 }
@@ -871,6 +882,9 @@ a {
 }
 
 @media (max-width: 380px) {
+  nav li {
+    padding: 0 15px;
+  }
   .main-h1 {
     font-size: 7rem;
   }
@@ -950,6 +964,16 @@ main {
   color: #A82706;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
 .contact-info p:first-child {
   font-weight: bold;
   font-size: 1.8rem;
@@ -961,22 +985,26 @@ main {
   margin-top: 70px;
 }
 
-input::-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   font-size: 1.6rem;
   font-style: italic;
 }
 
-input:-ms-input-placeholder {
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
   font-size: 1.6rem;
   font-style: italic;
 }
 
-input::-ms-input-placeholder {
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
   font-size: 1.6rem;
   font-style: italic;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   font-size: 1.6rem;
   font-style: italic;
 }
@@ -1005,6 +1033,7 @@ input::placeholder {
   width: 99%;
   height: 300px;
   margin-top: 10px;
+  padding: 20px 20px;
 }
 
 .contact-button {
@@ -1241,6 +1270,16 @@ aside {
 .comment-button:focus {
   background: white;
   border: 1px solid #05AFC1;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {

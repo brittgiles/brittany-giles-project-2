@@ -41,6 +41,16 @@ main {
     }
 }
 
+.visually-hidden:not(:focus):not(:active) { 
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); 
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
 .contact-info p:first-child {
     font-weight: bold;
     font-size: 1.8rem;
@@ -52,7 +62,8 @@ main {
     margin-top: 70px;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
     font-size: 1.6rem;
     font-style: italic;
 }
@@ -81,6 +92,7 @@ input::placeholder {
     width: 99%;
     height: 300px;
     margin-top: 10px;
+    padding: 20px 20px;
 }
 
 .contact-button {
@@ -110,20 +122,6 @@ input::placeholder {
         height: 20vh;
     }
 }
-
-// @media (max-width:650px) {
-//     header ul{
-//         display: none;
-//     }
-//     i.fa-bars{
-//         visibility: visible;
-//     }
-
-//     i.fa-bars:hover,
-//     i.fa-bars:focus {
-//         color: $accent-color;
-//     }
-// }
 
 @media (max-width:375px) {
     .subpage-h1 {
