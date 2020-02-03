@@ -378,6 +378,28 @@ a {
     }
 }
 
+@media (max-width:740px) {
+    
+    .all-about-text {
+        top: 360px;
+        left: 22%;
+    }
+
+    .sophie-portrait {
+        box-shadow: 10px 10px white;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .main-h1 {
+        left: 26%;
+        top: 390px;
+    }
+
+}
+
 @media (max-width:650px) {
     .website-pages {
         height: 100%;
@@ -436,7 +458,29 @@ a {
     }
 }
 
+@media (max-width:480px) {
+    .sophie-portrait {
+        width: 50%;
+    }
+
+    .all-about-text {
+        left: 9%;
+    }
+
+    .main-h1 {
+        left: 14%;
+    }
+}
+
 @media (max-width:380px) {
+    .main-h1 {
+        font-size: 7rem;
+    }
+
+    .all-about-text {
+        left: 7%;
+    }
+    
     .about-sophie h2 {
         margin-top: 20px;
     }
