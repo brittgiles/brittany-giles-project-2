@@ -68,6 +68,8 @@ textarea::placeholder {
     font-style: italic;
 }
 
+
+
 .contact-aside {
     width: 25%;
     height: 40%;
@@ -114,6 +116,12 @@ textarea::placeholder {
 .contact-button:focus {
     background: white;
     border: 1px solid $accent-color;
+}
+
+#name:focus,
+#email:focus,
+#message:focus {
+    border: 3px solid $primary-color;
 }
 
 // Media queries 

@@ -1057,6 +1057,12 @@ textarea::placeholder {
   border: 1px solid #05AFC1;
 }
 
+#name:focus,
+#email:focus,
+#message:focus {
+  border: 3px solid #F6A823;
+}
+
 @media (max-width: 768px) {
   .contact-header .header-image {
     height: 20vh;
